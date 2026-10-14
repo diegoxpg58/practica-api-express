@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de Productos - API REST</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 30px;
+    }
+    h1 {
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 30px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+    @media (max-width: 768px) {
+      .container { grid-template-columns: 1fr; }
+    }
+    .card {
+      background-color: #1e1e1e;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #333;
+    }
+    th {
+      background-color: #2a2a2a;
+      color: #00e676;
+    }
+    tr:hover {
+      background-color: #292929;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Dashboard de Productos (Consumo API REST)</h1>
+
+  <div class="container">
+    <!-- Tabla de datos -->
+    <div class="card">
+      <h2>Listado de Productos</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Precio ($)</th>
+            <th>Categoría</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-body">
+          <!-- Los datos cargados dinámicamente desde la API irán aquí -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Gráfica de Chart.js -->
+    <div class="card">
+      <h2>Visualización de Precios</h2>
+      <canvas id="miGrafica"></canvas>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
