@@ -1,0 +1,62 @@
+[
+  {
+    "nombre": "Blusa de lino",
+    "precio": 429,
+    "categoria": "Blusas"
+  },
+  {
+    "nombre": "Blusa con encaje",
+    "precio": 489,
+    "categoria": "Blusas"
+  },
+  {
+    "nombre": "Suéter tejido de cuello alto",
+    "precio": 749,
+    "categoria": "Suéteres"
+  },
+  {
+    "nombre": "Cárdigan largo",
+    "precio": 829,
+    "categoria": "Suéteres"
+  },
+  {
+    "nombre": "Jogger de algodón",
+    "precio": 549,
+    "categoria": "Pantalones"
+  },
+  {
+    "nombre": "Pantalón de vestir",
+    "precio": 899,
+    "categoria": "Pantalones"
+  },
+  {
+    "nombre": "Chaleco acolchado",
+    "precio": 999,
+    "categoria": "Chamarras"
+  },
+  {
+    "nombre": "Rompevientos impermeable",
+    "precio": 1199,
+    "categoria": "Chamarras"
+  },
+  {
+    "nombre": "Gorra bordada",
+    "precio": 259,
+    "categoria": "Accesorios"
+  },
+  {
+    "nombre": "Cinturón de piel",
+    "precio": 389,
+    "categoria": "Accesorios"
+  },
+  {
+    "nombre": "Botas de tobillo",
+    "precio": 1599,
+    "categoria": "Calzado"
+  },
+  {
+    "nombre": "Sandalias de piel",
+    "precio": 699,
+    "categoria": "Calzado"
+  }
+]
